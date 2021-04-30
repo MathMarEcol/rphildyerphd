@@ -7,7 +7,9 @@
 opt_confusion(x, y)
 }
 \arguments{
-\item{clust_map}{}
+\item{mvpart_map}{vector of mvpart leaf id's for each grid cell}
+
+\item{clust_map}{vector of k-medoid/k-means cluster id's for each grid cell}
 }
 \value{
 list of: best confusion matrix, sum of diagonal of best confusion matrix, data.frame mapping mvpart_map entries to clust_map entries
